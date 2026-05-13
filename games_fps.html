@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fireball FPS</title>
+    
+    <link rel="icon" type="image/png" href="./fuego.png">
+    
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div id="container"></div>
+    <div id="info">
+        <strong>Fireball FPS</strong><br/>
+        WASD: Moverse - ESPACIO: Saltar<br/>
+        CLIC: Disparar Bolas de Fuego
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module" src="./assets/main.js"></script>
+</body>
+</html>

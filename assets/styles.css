@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    overflow: hidden; /* Evita barras de desplazamiento */
+}
+
+#info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    pointer-events: none; /* Permite hacer clic a través del texto */
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+}
